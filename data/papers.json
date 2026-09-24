@@ -2074,5 +2074,1881 @@
         ]
       }
     ]
+  },
+  {
+    "id": "al-12",
+    "strand": "algebra",
+    "subtopic": "Sequences",
+    "title": "Simple AP term",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "An arithmetic sequence has first term $3$ and common difference $5$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the 6th term.",
+        "marks": 2,
+        "answer": "$28$",
+        "solution": [
+          "$u_n=3+(n-1)5$",
+          "$u_6=3+25=28$"
+        ],
+        "accept": [
+          "28"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the sum of the first $6$ terms.",
+        "marks": 2,
+        "answer": "$93$",
+        "solution": [
+          "$S_6=\\dfrac{6}{2}(2\\cdot 3+5\\cdot 5)=3(6+25)=93$"
+        ],
+        "accept": [
+          "93"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-13",
+    "strand": "algebra",
+    "subtopic": "Exponents",
+    "title": "Power laws",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Simplify the following expressions.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Simplify $\\dfrac{x^{8}}{x^{3}}$.",
+        "marks": 2,
+        "answer": "$x^{5}$",
+        "solution": [
+          "$x^{8-3}=x^{5}$"
+        ],
+        "accept": [
+          "x^5"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Simplify $(2y^{2})^{3}$.",
+        "marks": 2,
+        "answer": "$8y^{6}$",
+        "solution": [
+          "$2^{3}y^{6}=8y^{6}$"
+        ],
+        "accept": [
+          "8y^6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-14",
+    "strand": "algebra",
+    "subtopic": "Logarithms",
+    "title": "Basic log value",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Logarithms to base $10$ are written $\\log$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Evaluate $\\log 100$.",
+        "marks": 2,
+        "answer": "$2$",
+        "solution": [
+          "$10^{2}=100$"
+        ],
+        "accept": [
+          "2"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve $10^{x}=1000$.",
+        "marks": 2,
+        "answer": "$x=3$",
+        "solution": [
+          "$1000=10^{3}$"
+        ],
+        "accept": [
+          "3",
+          "x=3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-15",
+    "strand": "algebra",
+    "subtopic": "Binomial",
+    "title": "Pascal entry",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "The binomial coefficients $\\dbinom{n}{r}$ appear in $(a+b)^{n}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Evaluate $\\dbinom{5}{2}$.",
+        "marks": 2,
+        "answer": "$10$",
+        "solution": [
+          "$\\dfrac{5\\cdot 4}{2\\cdot 1}=10$"
+        ],
+        "accept": [
+          "10"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Write down the expansion of $(x+1)^{3}$.",
+        "marks": 2,
+        "answer": "$x^{3}+3x^{2}+3x+1$",
+        "solution": [
+          "Coefficients $1,3,3,1$"
+        ],
+        "accept": [
+          "x^3+3x^2+3x+1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-16",
+    "strand": "algebra",
+    "subtopic": "Sequences",
+    "title": "Geometric sum to infinity",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "A geometric sequence has first term $a=5$ and common ratio $r=\\dfrac{1}{2}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the 4th term.",
+        "marks": 2,
+        "answer": "$\\dfrac{5}{8}$",
+        "solution": [
+          "$u_4=5\\cdot(1/2)^{3}=5/8$"
+        ],
+        "accept": [
+          "5/8",
+          "0.625"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the sum to infinity.",
+        "marks": 2,
+        "answer": "$10$",
+        "solution": [
+          "$S_{\\infty}=\\dfrac{a}{1-r}=\\dfrac{5}{1-1/2}=10$"
+        ],
+        "accept": [
+          "10"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find the least $n$ such that $S_{n}>9.5$.",
+        "marks": 3,
+        "answer": "$n=5$",
+        "solution": [
+          "$S_n=10(1-(1/2)^{n})$",
+          "$10-10/2^{n}>9.5$",
+          "$0.5>10/2^{n}$",
+          "$2^{n}>20$",
+          "$n=5$"
+        ],
+        "accept": [
+          "5",
+          "n=5"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-17",
+    "strand": "algebra",
+    "subtopic": "Logarithms",
+    "title": "Log equation with product",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Consider the equation $\\log_{2} x+\\log_{2}(x-2)=3$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Show that $x(x-2)=8$.",
+        "marks": 2,
+        "answer": "$x(x-2)=8$",
+        "solution": [
+          "$\\log_{2}(x(x-2))=3$",
+          "$x(x-2)=2^{3}=8$"
+        ],
+        "accept": [
+          "8",
+          "x(x-2)=8"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve for $x$, stating any restrictions.",
+        "marks": 3,
+        "answer": "$x=4$",
+        "solution": [
+          "$x^{2}-2x-8=0$",
+          "$(x-4)(x+2)=0$",
+          "Domain $x>2$, so $x=4$"
+        ],
+        "accept": [
+          "4",
+          "x=4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-18",
+    "strand": "algebra",
+    "subtopic": "Complex numbers",
+    "title": "Cartesian to polar",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Let $z=1+i\\sqrt{3}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $|z|$.",
+        "marks": 2,
+        "answer": "$2$",
+        "solution": [
+          "$|z|=\\sqrt{1+3}=2$"
+        ],
+        "accept": [
+          "2"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\arg z$ in radians, $-\\pi<\\arg z\\le\\pi$.",
+        "marks": 2,
+        "answer": "$\\dfrac{\\pi}{3}$",
+        "solution": [
+          "$\\tan^{-1}(\\sqrt{3}/1)=\\pi/3$ (first quadrant)"
+        ],
+        "accept": [
+          "pi/3",
+          "π/3"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Hence write $z^{6}$ in Cartesian form.",
+        "marks": 3,
+        "answer": "$64$",
+        "solution": [
+          "$z=2\\operatorname{cis}(\\pi/3)$",
+          "$z^{6}=2^{6}\\operatorname{cis}(2\\pi)=64$"
+        ],
+        "accept": [
+          "64",
+          "64+0i"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-19",
+    "strand": "algebra",
+    "subtopic": "Binomial",
+    "title": "Coefficient hunt",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Consider the expansion of $\\left(2x-\\dfrac{1}{x}\\right)^{6}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the term in $x^{2}$.",
+        "marks": 4,
+        "answer": "$240x^{2}$",
+        "solution": [
+          "General term $\\dbinom{6}{k}(2x)^{6-k}(-1/x)^{k}=\\dbinom{6}{k}2^{6-k}(-1)^{k}x^{6-k}x^{-k}$",
+          "Power of $x$: $6-2k=2$ so $k=2$",
+          "$\\dbinom{6}{2}2^{4}(-1)^{2}x^{2}=15\\cdot 16\\cdot x^{2}=240x^{2}$"
+        ],
+        "accept": [
+          "240x^2",
+          "240 x^2"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the constant term.",
+        "marks": 3,
+        "answer": "$-160$",
+        "solution": [
+          "$6-2k=0$ so $k=3$",
+          "$\\dbinom{6}{3}2^{3}(-1)^{3}=-20\\cdot 8=-160$"
+        ],
+        "accept": [
+          "-160"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "al-20",
+    "strand": "algebra",
+    "subtopic": "Proof & sigma",
+    "title": "Sigma manipulation",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "It is given that $\\sum_{k=1}^{n} k=\\dfrac{n(n+1)}{2}$ and $\\sum_{k=1}^{n} k^{2}=\\dfrac{n(n+1)(2n+1)}{6}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\sum_{k=1}^{10} (2k-1)$.",
+        "marks": 3,
+        "answer": "$100$",
+        "solution": [
+          "$2\\sum k-\\sum 1=2\\cdot 55-10=100$",
+          "Or sum of first 10 odds $=10^{2}$"
+        ],
+        "accept": [
+          "100"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\sum_{k=1}^{n} (k^{2}-k)$ in simplified form.",
+        "marks": 3,
+        "answer": "$\\dfrac{n(n^{2}-1)}{3}$",
+        "solution": [
+          "$\\dfrac{n(n+1)(2n+1)}{6}-\\dfrac{n(n+1)}{2}=\\dfrac{n(n+1)}{6}((2n+1)-3)=\\dfrac{n(n+1)(2n-2)}{6}=\\dfrac{n(n+1)(n-1)}{3}$"
+        ],
+        "accept": [
+          "n(n+1)(n-1)/3",
+          "n(n^2-1)/3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-11",
+    "strand": "functions",
+    "subtopic": "Linear",
+    "title": "Gradient from points",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "The line $L$ passes through $A(0,2)$ and $B(4,10)$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the gradient of $L$.",
+        "marks": 2,
+        "answer": "$2$",
+        "solution": [
+          "$m=(10-2)/(4-0)=2$"
+        ],
+        "accept": [
+          "2"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Write the equation of $L$ in the form $y=mx+c$.",
+        "marks": 2,
+        "answer": "$y=2x+2$",
+        "solution": [
+          "$c=2$"
+        ],
+        "accept": [
+          "y=2x+2",
+          "2x+2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-12",
+    "strand": "functions",
+    "subtopic": "Quadratics",
+    "title": "Factor and roots",
+    "calculator": false,
+    "difficulty": 2,
+    "stem": "Let $f(x)=x^{2}-x-12$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Factorise $f(x)$.",
+        "marks": 2,
+        "answer": "$(x-4)(x+3)$",
+        "solution": [
+          "Numbers $-4$ and $3$"
+        ],
+        "accept": [
+          "(x-4)(x+3)",
+          "(x+3)(x-4)"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve $f(x)=0$.",
+        "marks": 2,
+        "answer": "$x=4$ or $x=-3$",
+        "solution": [
+          "$x=4$ or $x=-3$"
+        ],
+        "accept": [
+          "4,-3",
+          "-3,4"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Write down the axis of symmetry.",
+        "marks": 2,
+        "answer": "$x=\\dfrac{1}{2}$",
+        "solution": [
+          "Midpoint of roots, or $x=-b/2a=1/2$"
+        ],
+        "accept": [
+          "x=1/2",
+          "1/2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-13",
+    "strand": "functions",
+    "subtopic": "Composition",
+    "title": "Two compositions",
+    "calculator": false,
+    "difficulty": 2,
+    "stem": "Let $f(x)=2x+1$ and $g(x)=x^{2}-4$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $(f\\circ g)(3)$.",
+        "marks": 2,
+        "answer": "$11$",
+        "solution": [
+          "$g(3)=5$, $f(5)=11$"
+        ],
+        "accept": [
+          "11"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $(g\\circ f)(x)$.",
+        "marks": 3,
+        "answer": "$(2x+1)^{2}-4$",
+        "solution": [
+          "$g(f(x))=(2x+1)^{2}-4$"
+        ],
+        "accept": [
+          "(2x+1)^2-4",
+          "4x^2+4x-3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-14",
+    "strand": "functions",
+    "subtopic": "Exponential",
+    "title": "Solve exponential",
+    "calculator": false,
+    "difficulty": 2,
+    "stem": "Consider $y=3^{x}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $y$ when $x=2$.",
+        "marks": 1,
+        "answer": "$9$",
+        "solution": [
+          "$3^{2}=9$"
+        ],
+        "accept": [
+          "9"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve $3^{x}=1/27$.",
+        "marks": 3,
+        "answer": "$x=-3$",
+        "solution": [
+          "$1/27=3^{-3}$"
+        ],
+        "accept": [
+          "-3",
+          "x=-3"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Write down the inverse of $f(x)=3^{x}$.",
+        "marks": 2,
+        "answer": "$f^{-1}(x)=\\log_{3} x$",
+        "solution": [
+          "Inverse is $\\log_{3}x$"
+        ],
+        "accept": [
+          "log_3(x)",
+          "log3(x)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-15",
+    "strand": "functions",
+    "subtopic": "Transformations",
+    "title": "Shift and stretch",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "The graph of $y=f(x)$ is transformed to $y=2f(x-1)+3$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Describe the transformations in order.",
+        "marks": 3,
+        "answer": "Translate $1$ right, stretch vertically by $2$, translate $3$ up",
+        "solution": [
+          "Replace $x$ by $x-1$: shift right $1$",
+          "Multiply by $2$: vertical stretch factor $2$",
+          "Add $3$: shift up $3$"
+        ],
+        "accept": [
+          "right 1 stretch 2 up 3",
+          "translate right 1, vertical stretch 2, translate up 3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "If $f(x)=x^{2}$, find the vertex of the transformed graph.",
+        "marks": 3,
+        "answer": "$(1,3)$",
+        "solution": [
+          "$y=2(x-1)^{2}+3$, vertex $(1,3)$"
+        ],
+        "accept": [
+          "(1,3)",
+          "1,3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-16",
+    "strand": "functions",
+    "subtopic": "Rational",
+    "title": "Asymptotes",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Let $f(x)=\\dfrac{2x+1}{x-3}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Write down the equation of the vertical asymptote.",
+        "marks": 1,
+        "answer": "$x=3$",
+        "solution": [
+          "Denominator zero at $x=3$"
+        ],
+        "accept": [
+          "x=3",
+          "3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Write down the equation of the horizontal asymptote.",
+        "marks": 2,
+        "answer": "$y=2$",
+        "solution": [
+          "As $x\\to\\infty$, $f(x)\\to 2$"
+        ],
+        "accept": [
+          "y=2",
+          "2"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find the intercepts with the axes.",
+        "marks": 3,
+        "answer": "$x$-intercept $-1/2$; $y$-intercept $-1/3$",
+        "solution": [
+          "$f(0)=-1/3$",
+          "$2x+1=0\\Rightarrow x=-1/2$"
+        ],
+        "accept": [
+          "(-1/2,0),(0,-1/3)",
+          "x=-1/2,y=-1/3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-17",
+    "strand": "functions",
+    "subtopic": "Quadratics",
+    "title": "Discriminant condition",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "The equation $x^{2}+(k-1)x+k=0$ has two distinct real roots.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Show that $k^{2}-6k+1>0$.",
+        "marks": 3,
+        "answer": "$k^{2}-6k+1>0$",
+        "solution": [
+          "Discriminant $(k-1)^{2}-4k=k^{2}-2k+1-4k=k^{2}-6k+1$",
+          "Need $>0$"
+        ],
+        "accept": [
+          "k^2-6k+1>0"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve $k^{2}-6k+1>0$.",
+        "marks": 3,
+        "answer": "$k<3-2\\sqrt{2}$ or $k>3+2\\sqrt{2}$",
+        "solution": [
+          "Roots $3\\pm\\sqrt{8}=3\\pm 2\\sqrt{2}$",
+          "Outside the roots"
+        ],
+        "accept": [
+          "k<3-2sqrt(2) or k>3+2sqrt(2)",
+          "k<3-2√2 or k>3+2√2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fn-18",
+    "strand": "functions",
+    "subtopic": "Logarithmic",
+    "title": "Log domain and solve",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Consider $f(x)=\\ln(2x-1)$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "State the domain of $f$.",
+        "marks": 2,
+        "answer": "$x>\\dfrac{1}{2}$",
+        "solution": [
+          "$2x-1>0$"
+        ],
+        "accept": [
+          "x>1/2",
+          "x>0.5"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve $f(x)=0$.",
+        "marks": 2,
+        "answer": "$x=1$",
+        "solution": [
+          "$2x-1=e^{0}=1$",
+          "$x=1$"
+        ],
+        "accept": [
+          "1",
+          "x=1"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find $f^{-1}(x)$.",
+        "marks": 3,
+        "answer": "$f^{-1}(x)=\\dfrac{e^{x}+1}{2}$",
+        "solution": [
+          "$y=\\ln(2x-1)$",
+          "$e^{y}=2x-1$",
+          "$x=(e^{y}+1)/2$"
+        ],
+        "accept": [
+          "(e^x+1)/2",
+          "(exp(x)+1)/2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-10",
+    "strand": "trigonometry",
+    "subtopic": "Exact values",
+    "title": "Standard angles",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Write down the following exact values.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "$\\sin 30^{\\circ}$",
+        "marks": 1,
+        "answer": "$\\dfrac{1}{2}$",
+        "solution": [
+          "Standard"
+        ],
+        "accept": [
+          "1/2",
+          "0.5"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "$\\cos 45^{\\circ}$",
+        "marks": 1,
+        "answer": "$\\dfrac{\\sqrt{2}}{2}$",
+        "solution": [
+          "Standard"
+        ],
+        "accept": [
+          "sqrt(2)/2",
+          "1/sqrt(2)"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "$\\tan 60^{\\circ}$",
+        "marks": 1,
+        "answer": "$\\sqrt{3}$",
+        "solution": [
+          "Standard"
+        ],
+        "accept": [
+          "sqrt(3)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-11",
+    "strand": "trigonometry",
+    "subtopic": "Radians",
+    "title": "Degree-radian",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Convert between degrees and radians.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Convert $270^{\\circ}$ to radians.",
+        "marks": 2,
+        "answer": "$\\dfrac{3\\pi}{2}$",
+        "solution": [
+          "$270\\cdot\\pi/180=3\\pi/2$"
+        ],
+        "accept": [
+          "3pi/2",
+          "3π/2"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Convert $\\dfrac{2\\pi}{3}$ to degrees.",
+        "marks": 2,
+        "answer": "$120^{\\circ}$",
+        "solution": [
+          "$2\\pi/3\\cdot 180/\\pi=120$"
+        ],
+        "accept": [
+          "120",
+          "120deg",
+          "120°"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-12",
+    "strand": "trigonometry",
+    "subtopic": "Equations",
+    "title": "Cosine equation basic",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Solve for $0\\le x\\le 360^{\\circ}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Solve $\\cos x=\\dfrac{1}{2}$.",
+        "marks": 3,
+        "answer": "$x=60^{\\circ}$ or $x=300^{\\circ}$",
+        "solution": [
+          "Acute angle $60^{\\circ}$",
+          "Cosine positive in Q1 and Q4: $60^{\\circ}$, $300^{\\circ}$"
+        ],
+        "accept": [
+          "60,300",
+          "60°,300°"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-13",
+    "strand": "trigonometry",
+    "subtopic": "Graphs",
+    "title": "Cosine features",
+    "calculator": false,
+    "difficulty": 2,
+    "stem": "Consider $y=3\\cos(2x)$ for $x$ in radians.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Write down the amplitude.",
+        "marks": 1,
+        "answer": "$3$",
+        "solution": [
+          "Amplitude is $3$"
+        ],
+        "accept": [
+          "3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Write down the period.",
+        "marks": 2,
+        "answer": "$\\pi$",
+        "solution": [
+          "Period $2\\pi/2=\\pi$"
+        ],
+        "accept": [
+          "pi",
+          "π"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find the maximum value of $y$.",
+        "marks": 1,
+        "answer": "$3$",
+        "solution": [
+          "Max is $3$"
+        ],
+        "accept": [
+          "3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-14",
+    "strand": "trigonometry",
+    "subtopic": "Identities",
+    "title": "Pythagorean use",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Given $\\sin\\theta=\\dfrac{5}{13}$ and $\\theta$ is obtuse.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\cos\\theta$.",
+        "marks": 3,
+        "answer": "$-\\dfrac{12}{13}$",
+        "solution": [
+          "$\\cos^{2}=1-25/169=144/169$",
+          "Obtuse $\\Rightarrow\\cos<0$"
+        ],
+        "accept": [
+          "-12/13"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\tan\\theta$.",
+        "marks": 2,
+        "answer": "$-\\dfrac{5}{12}$",
+        "solution": [
+          "$\\tan=\\sin/\\cos=-5/12$"
+        ],
+        "accept": [
+          "-5/12"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-15",
+    "strand": "trigonometry",
+    "subtopic": "Equations",
+    "title": "Quadratic trig",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Solve $2\\sin^{2}x-\\sin x=0$ for $0\\le x\\le 2\\pi$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Factorise the left-hand side.",
+        "marks": 2,
+        "answer": "$\\sin x(2\\sin x-1)=0$",
+        "solution": [
+          "$\\sin x(2\\sin x-1)=0$"
+        ],
+        "accept": [
+          "sin(x)(2sin(x)-1)=0"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Hence solve the equation.",
+        "marks": 4,
+        "answer": "$x=0,\\pi/6,5\\pi/6,\\pi,2\\pi$",
+        "solution": [
+          "$\\sin x=0$ or $\\sin x=1/2$",
+          "$x=0,\\pi,2\\pi$ or $x=\\pi/6,5\\pi/6$"
+        ],
+        "accept": [
+          "0,pi/6,5pi/6,pi,2pi",
+          "0,π/6,5π/6,π,2π"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-16",
+    "strand": "trigonometry",
+    "subtopic": "Exact values",
+    "title": "Compound angle",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Use an exact expansion to find $\\cos 15^{\\circ}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Write $\\cos 15^{\\circ}$ as $\\cos(45^{\\circ}-30^{\\circ})$ and expand.",
+        "marks": 2,
+        "answer": "$\\cos 45^{\\circ}\\cos 30^{\\circ}+\\sin 45^{\\circ}\\sin 30^{\\circ}$",
+        "solution": [
+          "$\\cos(A-B)=\\cos A\\cos B+\\sin A\\sin B$"
+        ],
+        "accept": [
+          "cos45cos30+sin45sin30"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Hence find the exact value.",
+        "marks": 3,
+        "answer": "$\\dfrac{\\sqrt{6}+\\sqrt{2}}{4}$",
+        "solution": [
+          "$(\\sqrt{2}/2)(\\sqrt{3}/2)+(\\sqrt{2}/2)(1/2)=(\\sqrt{6}+\\sqrt{2})/4$"
+        ],
+        "accept": [
+          "(sqrt(6)+sqrt(2))/4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-17",
+    "strand": "trigonometry",
+    "subtopic": "Unit circle",
+    "title": "Reference angle",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "The point $P(\\cos\\theta,\\sin\\theta)$ lies on the unit circle with $\\theta=\\dfrac{5\\pi}{6}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Write down the coordinates of $P$.",
+        "marks": 3,
+        "answer": "$\\left(-\\dfrac{\\sqrt{3}}{2},\\dfrac{1}{2}\\right)$",
+        "solution": [
+          "Q2: $\\cos=-\\sqrt{3}/2$, $\\sin=1/2$"
+        ],
+        "accept": [
+          "(-sqrt(3)/2,1/2)"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\tan\\theta$.",
+        "marks": 2,
+        "answer": "$-\\dfrac{1}{\\sqrt{3}}$",
+        "solution": [
+          "$\\tan=\\sin/\\cos=-1/\\sqrt{3}$"
+        ],
+        "accept": [
+          "-1/sqrt(3)",
+          "-sqrt(3)/3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tr-18",
+    "strand": "trigonometry",
+    "subtopic": "Identities",
+    "title": "Double angle solve",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Solve $\\cos 2x=\\cos x$ for $0\\le x<2\\pi$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Rewrite using $\\cos 2x=2\\cos^{2}x-1$.",
+        "marks": 2,
+        "answer": "$2\\cos^{2}x-1=\\cos x$",
+        "solution": [
+          "$2\\cos^{2}x-\\cos x-1=0$"
+        ],
+        "accept": [
+          "2cos^2(x)-cos(x)-1=0"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Solve for $x$.",
+        "marks": 4,
+        "answer": "$x=0,\\dfrac{2\\pi}{3},\\dfrac{4\\pi}{3}$",
+        "solution": [
+          "$(2\\cos x+1)(\\cos x-1)=0$",
+          "$\\cos x=1\\Rightarrow x=0$",
+          "$\\cos x=-1/2\\Rightarrow x=2\\pi/3,4\\pi/3$",
+          "Within $0\\le x<2\\pi$."
+        ],
+        "accept": [
+          "0,2pi/3,4pi/3",
+          "0,2π/3,4π/3"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-11",
+    "strand": "calculus",
+    "subtopic": "Differentiation",
+    "title": "Power rule",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Let $f(x)=x^{4}-3x+2$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $f'(x)$.",
+        "marks": 2,
+        "answer": "$4x^{3}-3$",
+        "solution": [
+          "$f'(x)=4x^{3}-3$"
+        ],
+        "accept": [
+          "4x^3-3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $f'(1)$.",
+        "marks": 2,
+        "answer": "$1$",
+        "solution": [
+          "$4-3=1$"
+        ],
+        "accept": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-12",
+    "strand": "calculus",
+    "subtopic": "Integration",
+    "title": "Indefinite basic",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Find the following integrals.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\int 6x^{2}\\,dx$.",
+        "marks": 2,
+        "answer": "$2x^{3}+C$",
+        "solution": [
+          "$6\\cdot x^{3}/3+C=2x^{3}+C$"
+        ],
+        "accept": [
+          "2x^3+C",
+          "2x^3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\int (2x-1)\\,dx$.",
+        "marks": 2,
+        "answer": "$x^{2}-x+C$",
+        "solution": [
+          "$x^{2}-x+C$"
+        ],
+        "accept": [
+          "x^2-x+C",
+          "x^2-x"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-13",
+    "strand": "calculus",
+    "subtopic": "Differentiation",
+    "title": "Gradient at a point",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "The curve $y=x^{2}+1$ has a tangent at $x=2$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\dfrac{dy}{dx}$.",
+        "marks": 2,
+        "answer": "$2x$",
+        "solution": [
+          "$2x$"
+        ],
+        "accept": [
+          "2x"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the gradient of the tangent at $x=2$.",
+        "marks": 2,
+        "answer": "$4$",
+        "solution": [
+          "$2\\cdot 2=4$"
+        ],
+        "accept": [
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-14",
+    "strand": "calculus",
+    "subtopic": "Integration",
+    "title": "Definite easy",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "Evaluate the definite integral.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\int_{0}^{2} 3x^{2}\\,dx$.",
+        "marks": 3,
+        "answer": "$8$",
+        "solution": [
+          "$[x^{3}]_{0}^{2}=8$"
+        ],
+        "accept": [
+          "8"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\int_{1}^{4} \\dfrac{1}{2\\sqrt{x}}\\,dx$.",
+        "marks": 3,
+        "answer": "$1$",
+        "solution": [
+          "$[\\sqrt{x}]_{1}^{4}=2-1=1$"
+        ],
+        "accept": [
+          "1"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-15",
+    "strand": "calculus",
+    "subtopic": "Differentiation",
+    "title": "Product and chain hard",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Let $y=x^{2}e^{x}$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\dfrac{dy}{dx}$.",
+        "marks": 3,
+        "answer": "$e^{x}(x^{2}+2x)$",
+        "solution": [
+          "Product: $2xe^{x}+x^{2}e^{x}=e^{x}(2x+x^{2})$"
+        ],
+        "accept": [
+          "e^x(x^2+2x)",
+          "e^x(2x+x^2)"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the $x$-coordinates of the stationary points.",
+        "marks": 3,
+        "answer": "$x=0$ or $x=-2$",
+        "solution": [
+          "$e^{x}\\neq 0$",
+          "$x^{2}+2x=0$",
+          "$x(x+2)=0$"
+        ],
+        "accept": [
+          "0,-2",
+          "-2,0"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-16",
+    "strand": "calculus",
+    "subtopic": "Integration",
+    "title": "Substitution flavour",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Consider $I=\\int_{0}^{1} 2x(x^{2}+1)^{3}\\,dx$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Use the substitution $u=x^{2}+1$ to rewrite $I$.",
+        "marks": 3,
+        "answer": "$I=\\int_{1}^{2} u^{3}\\,du$",
+        "solution": [
+          "$du=2x\\,dx$",
+          "$x=0\\Rightarrow u=1$, $x=1\\Rightarrow u=2$"
+        ],
+        "accept": [
+          "int_1^2 u^3 du"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Evaluate $I$.",
+        "marks": 2,
+        "answer": "$\\dfrac{15}{4}$",
+        "solution": [
+          "$[u^{4}/4]_{1}^{2}=4-1/4=15/4$"
+        ],
+        "accept": [
+          "15/4",
+          "3.75"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-17",
+    "strand": "calculus",
+    "subtopic": "Area",
+    "title": "Area under curve",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "The curve $y=4x-x^{2}$ meets the $x$-axis at the origin and at $x=4$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the area enclosed by the curve and the $x$-axis.",
+        "marks": 4,
+        "answer": "$\\dfrac{32}{3}$",
+        "solution": [
+          "$A=\\int_{0}^{4}(4x-x^{2})dx=[2x^{2}-x^{3}/3]_{0}^{4}=32-64/3=32/3$"
+        ],
+        "accept": [
+          "32/3"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the maximum value of $y$ on $[0,4]$.",
+        "marks": 3,
+        "answer": "$4$",
+        "solution": [
+          "$dy/dx=4-2x=0\\Rightarrow x=2$",
+          "$y=8-4=4$"
+        ],
+        "accept": [
+          "4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-18",
+    "strand": "calculus",
+    "subtopic": "Differential equations",
+    "title": "Separable easy-hard",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "Solve the differential equation $\\dfrac{dy}{dx}=3y$ given that $y=2$ when $x=0$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Separate variables and integrate.",
+        "marks": 3,
+        "answer": "$\\ln|y|=3x+C$",
+        "solution": [
+          "$dy/y=3\\,dx$",
+          "$\\ln|y|=3x+C$"
+        ],
+        "accept": [
+          "ln|y|=3x+C"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the particular solution.",
+        "marks": 3,
+        "answer": "$y=2e^{3x}$",
+        "solution": [
+          "$y=Ae^{3x}$",
+          "$x=0,y=2\\Rightarrow A=2$"
+        ],
+        "accept": [
+          "y=2e^(3x)",
+          "2e^(3x)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ca-19",
+    "strand": "calculus",
+    "subtopic": "Kinematics",
+    "title": "Velocity and displacement",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "A particle moves on a straight line with velocity $v=6t-3t^{2}$ (in m s$^{-1}$) for $t\\ge 0$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the acceleration when $t=1$.",
+        "marks": 2,
+        "answer": "$0$",
+        "solution": [
+          "$a=dv/dt=6-6t$",
+          "$a(1)=0$"
+        ],
+        "accept": [
+          "0"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the displacement from $t=0$ to $t=2$, given $s(0)=0$.",
+        "marks": 3,
+        "answer": "$4$",
+        "solution": [
+          "$s=\\int_{0}^{2}(6t-3t^{2})dt=[3t^{2}-t^{3}]_{0}^{2}=12-8=4$"
+        ],
+        "accept": [
+          "4"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find when the particle is instantaneously at rest.",
+        "marks": 2,
+        "answer": "$t=0$ or $t=2$",
+        "solution": [
+          "$6t-3t^{2}=0$",
+          "$3t(2-t)=0$"
+        ],
+        "accept": [
+          "0,2",
+          "t=0,2"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-10",
+    "strand": "statistics",
+    "subtopic": "Data",
+    "title": "Mean of list",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "The data set is $4, 7, 7, 10, 12$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the mean.",
+        "marks": 2,
+        "answer": "$8$",
+        "solution": [
+          "$40/5=8$"
+        ],
+        "accept": [
+          "8"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the median.",
+        "marks": 2,
+        "answer": "$7$",
+        "solution": [
+          "Middle value is $7$"
+        ],
+        "accept": [
+          "7"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-11",
+    "strand": "statistics",
+    "subtopic": "Combined events",
+    "title": "Simple complement",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "A spinner has $\\mathrm{P}(\\text{red})=0.25$ and $\\mathrm{P}(\\text{blue})=0.35$. The rest is green.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $\\mathrm{P}(\\text{green})$.",
+        "marks": 2,
+        "answer": "$0.4$",
+        "solution": [
+          "$1-0.25-0.35=0.4$"
+        ],
+        "accept": [
+          "0.4",
+          "2/5"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\mathrm{P}(\\text{not red})$.",
+        "marks": 2,
+        "answer": "$0.75$",
+        "solution": [
+          "$1-0.25=0.75$"
+        ],
+        "accept": [
+          "0.75",
+          "3/4"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-12",
+    "strand": "statistics",
+    "subtopic": "Counting",
+    "title": "Simple combinations",
+    "calculator": false,
+    "difficulty": 1,
+    "stem": "A club has $5$ members. Two are chosen at random for a committee.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "How many different committees are possible?",
+        "marks": 2,
+        "answer": "$10$",
+        "solution": [
+          "$\\dbinom{5}{2}=10$"
+        ],
+        "accept": [
+          "10"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "If the committee is ordered (president and secretary), how many ways?",
+        "marks": 2,
+        "answer": "$20$",
+        "solution": [
+          "$P(5,2)=5\\cdot 4=20$"
+        ],
+        "accept": [
+          "20"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-13",
+    "strand": "statistics",
+    "subtopic": "Binomial",
+    "title": "Harder binomial",
+    "calculator": true,
+    "difficulty": 3,
+    "stem": "A biased coin has $\\mathrm{P}(\\text{heads})=0.3$. The coin is tossed $8$ times. Let $X$ be the number of heads.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Write down the distribution of $X$.",
+        "marks": 2,
+        "answer": "$X\\sim B(8,0.3)$",
+        "solution": [
+          "$X\\sim B(8,0.3)$"
+        ],
+        "accept": [
+          "B(8,0.3)",
+          "X~B(8,0.3)"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\mathrm{P}(X=2)$. Give your answer to 3 significant figures.",
+        "marks": 3,
+        "answer": "$0.296$",
+        "solution": [
+          "$\\dbinom{8}{2}(0.3)^{2}(0.7)^{6}=28\\cdot 0.09\\cdot 0.117649\\approx 0.296$"
+        ],
+        "accept": [
+          "0.296"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find $\\mathrm{E}(X)$ and $\\mathrm{Var}(X)$.",
+        "marks": 2,
+        "answer": "$2.4$ and $1.68$",
+        "solution": [
+          "$np=2.4$",
+          "$np(1-p)=2.4\\cdot 0.7=1.68$"
+        ],
+        "accept": [
+          "2.4,1.68"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-14",
+    "strand": "statistics",
+    "subtopic": "Normal distribution",
+    "title": "Normal probs",
+    "calculator": true,
+    "difficulty": 3,
+    "stem": "Weights of bags of flour are normally distributed with mean $1.02$ kg and standard deviation $0.015$ kg.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the probability a bag weighs less than $1$ kg. Give 3 s.f.",
+        "marks": 3,
+        "answer": "$0.0912$",
+        "solution": [
+          "$z=(1-1.02)/0.015=-1.333$",
+          "$\\Phi(-1.333)\\approx 0.0912$"
+        ],
+        "accept": [
+          "0.0912",
+          "0.091"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the probability a bag weighs more than $1.05$ kg. Give 3 s.f.",
+        "marks": 3,
+        "answer": "$0.0228$",
+        "solution": [
+          "$z=(1.05-1.02)/0.015=2$",
+          "$1-\\Phi(2)\\approx 0.0228$"
+        ],
+        "accept": [
+          "0.0228"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-15",
+    "strand": "statistics",
+    "subtopic": "Combined events",
+    "title": "Conditional",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "In a year group, $40\\%$ study French, $30\\%$ study Spanish, and $15\\%$ study both.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find the probability a randomly chosen student studies French or Spanish.",
+        "marks": 2,
+        "answer": "$0.55$",
+        "solution": [
+          "$0.4+0.3-0.15=0.55$"
+        ],
+        "accept": [
+          "0.55",
+          "11/20"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find the probability a student studies Spanish given they study French.",
+        "marks": 3,
+        "answer": "$0.375$",
+        "solution": [
+          "$\\mathrm{P}(S|F)=\\mathrm{P}(F\\cap S)/\\mathrm{P}(F)=0.15/0.4=0.375$"
+        ],
+        "accept": [
+          "0.375",
+          "3/8"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Are the events independent? Justify.",
+        "marks": 2,
+        "answer": "No, because $0.4\\cdot 0.3=0.12\\neq 0.15$",
+        "solution": [
+          "$\\mathrm{P}(F)\\mathrm{P}(S)=0.12\\neq 0.15=\\mathrm{P}(F\\cap S)$"
+        ],
+        "accept": [
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-16",
+    "strand": "statistics",
+    "subtopic": "Discrete random variables",
+    "title": "Expectation hard",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "The discrete random variable $X$ has $\\mathrm{P}(X=x)=kx$ for $x=1,2,3,4$.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "Find $k$.",
+        "marks": 2,
+        "answer": "$k=\\dfrac{1}{10}$",
+        "solution": [
+          "$k(1+2+3+4)=1$",
+          "$10k=1$"
+        ],
+        "accept": [
+          "1/10",
+          "0.1"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\mathrm{E}(X)$.",
+        "marks": 3,
+        "answer": "$3$",
+        "solution": [
+          "$E(X)=1\\cdot 0.1+2\\cdot 0.2+3\\cdot 0.3+4\\cdot 0.4=0.1+0.4+0.9+1.6=3$"
+        ],
+        "accept": [
+          "3"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find $\\mathrm{P}(X\\ge 3)$.",
+        "marks": 2,
+        "answer": "$0.7$",
+        "solution": [
+          "$0.3+0.4=0.7$"
+        ],
+        "accept": [
+          "0.7",
+          "7/10"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-17",
+    "strand": "statistics",
+    "subtopic": "Counting",
+    "title": "Harder counting",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "From $6$ boys and $4$ girls, a team of $3$ is chosen.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "How many teams have exactly $2$ boys?",
+        "marks": 3,
+        "answer": "$60$",
+        "solution": [
+          "$\\dbinom{6}{2}\\dbinom{4}{1}=15\\cdot 4=60$"
+        ],
+        "accept": [
+          "60"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "How many teams have at least one girl?",
+        "marks": 3,
+        "answer": "$100$",
+        "solution": [
+          "Total $\\dbinom{10}{3}=120$",
+          "All boys $\\dbinom{6}{3}=20$",
+          "$120-20=100$"
+        ],
+        "accept": [
+          "100"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "st-18",
+    "strand": "statistics",
+    "subtopic": "Binomial",
+    "title": "Cumulative style",
+    "calculator": false,
+    "difficulty": 3,
+    "stem": "A fair die is rolled $5$ times. Let $X$ be the number of sixes.",
+    "parts": [
+      {
+        "id": "a",
+        "label": "a",
+        "prompt": "State the distribution of $X$.",
+        "marks": 2,
+        "answer": "$X\\sim B(5,1/6)$",
+        "solution": [
+          "$X\\sim B(5,1/6)$"
+        ],
+        "accept": [
+          "B(5,1/6)",
+          "X~B(5,1/6)"
+        ]
+      },
+      {
+        "id": "b",
+        "label": "b",
+        "prompt": "Find $\\mathrm{P}(X=0)$.",
+        "marks": 2,
+        "answer": "$\\left(\\dfrac{5}{6}\\right)^{5}$",
+        "solution": [
+          "$(5/6)^{5}$"
+        ],
+        "accept": [
+          "(5/6)^5"
+        ]
+      },
+      {
+        "id": "c",
+        "label": "c",
+        "prompt": "Find $\\mathrm{P}(X\\ge 1)$ in terms of a power of $5/6$.",
+        "marks": 2,
+        "answer": "$1-(5/6)^{5}$",
+        "solution": [
+          "$1-\\mathrm{P}(X=0)$"
+        ],
+        "accept": [
+          "1-(5/6)^5"
+        ]
+      }
+    ]
   }
 ]
