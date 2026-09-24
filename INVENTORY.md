@@ -81,3 +81,12 @@ python3 serve.py
 # → http://127.0.0.1:8000/
 ```
 
+## GitHub
+
+| What | URL |
+|------|-----|
+| Repo | https://github.com/julianlee314-hue/quintile-aa-hl |
+| Pages | https://julianlee314-hue.github.io/quintile-aa-hl/ |
+
+Pages serves from `main` branch root. The site auto-detects the `/quintile-aa-hl` base path.
+
