@@ -37,3 +37,10 @@ The live UI still loads the bundled JS (`assets/skills-*.js`, `assets/types-*.js
 ## Live reference
 
 https://king-wind-charm-lilac.grok.me/
+
+## GitHub Pages
+
+Published at: https://julianlee314-hue.github.io/quintile-aa-hl/
+
+The site auto-detects the `/quintile-aa-hl` prefix when hosted on GitHub Pages.
+Local `python3 serve.py` continues to use `/`.
