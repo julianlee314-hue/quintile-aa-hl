@@ -82,7 +82,7 @@ Target: ≥6 questions per stage per strand (≥18 per strand).
 | Editable skills JSON | `/workspace/quintile/data/skills.json` (also `site/data/`) |
 | Editable papers JSON | `/workspace/quintile/data/papers.json` |
 | Build banks into assets | `node tools/build_banks.js` |
-| Mac Desktop copy | `/Users/julianlee/Desktop/Math Resources/Quintile/` |
+| Mac Desktop copy | `~/Desktop/Math Resources/Quintile/` |
 
 ## How to open locally
 
