@@ -96,7 +96,7 @@ python3 serve.py
 
 | What | URL |
 |------|-----|
-| Repo | https://github.com/julianlee314-hue/quintile-aa-hl |
-| Pages | https://julianlee314-hue.github.io/quintile-aa-hl/ |
+| Repo | https://github.com/the-court-press/quintile-aa-hl |
+| Pages | https://the-court-press.github.io/quintile-aa-hl/ |
 
 Pages serves from `main` branch root. The site auto-detects the `/quintile-aa-hl` base path.
